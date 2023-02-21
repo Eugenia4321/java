@@ -484,5 +484,8 @@ nb-configuration.xml
 
 
 
-.zip
-.pptx
+*.zip
+*.pptx
+sem1.java 
+sem2.java 
+sem3.java 
