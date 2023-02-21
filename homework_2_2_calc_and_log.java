@@ -4,7 +4,7 @@ import java.util.logging.*;
 public class homework_2_2_calc_and_log {
     public static void main(String[] args) throws IOException {
 
-        Logger logger = Logger.getLogger(testlog.class.getName());
+        Logger logger = Logger.getLogger(homework_2_2_calc_and_log.class.getName());
         FileHandler fileHandler = new FileHandler("log2.txt");
         logger.addHandler(fileHandler);
         SimpleFormatter sFormat = new SimpleFormatter();
