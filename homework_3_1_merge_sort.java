@@ -47,13 +47,16 @@ public class homework_3_1_merge_sort {
         if(arrayList.size()==1){
             return arrayList;
         }
+        arrayListLeft.addAll(arrayList.subList(0, sizeArrayList/2));
+        arrayListRight.addAll(arrayList.subList(sizeArrayList/2, sizeArrayList));
+        /*
         for (int i = 0; i < sizeArrayList/2; i++) {
             arrayListLeft.add(arrayList.get(i));
         }
         for (int i = sizeArrayList/2; i < sizeArrayList; i++) {
             arrayListRight.add(arrayList.get(i));
             
-        }
+        } */
         arrayListLeft = mergeSortArrayList(arrayListLeft);
         arrayListRight = mergeSortArrayList(arrayListRight);
 
