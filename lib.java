@@ -15,7 +15,7 @@ public class lib {
         Scanner iScanner = new Scanner(System.in);
         System.out.println(helloWord);
         int data = iScanner.nextInt();
-        iScanner.close();
+        //iScanner.close();
         return data;
     }
 
